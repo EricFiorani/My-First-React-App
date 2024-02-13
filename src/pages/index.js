@@ -82,8 +82,11 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Learning How to Code & Design Through React
       </h1>
+      <p className={styles.intro}>
+        To the start of greater achievements!
+      </p>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
