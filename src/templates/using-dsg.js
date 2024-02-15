@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 
 const UsingDSG = () => (
   <Layout>
+    
     <h1>
       Hello from a <b>DSG Page</b>
     </h1>
@@ -18,6 +19,7 @@ const UsingDSG = () => (
       .
     </p>
     <Link to="/">Go back to the homepage</Link>
+    
   </Layout>
 )
 
